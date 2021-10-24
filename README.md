@@ -2,7 +2,7 @@
 
 ### Note
 
-For details of our releasing methods, please see our paper entitles "Privacy-Preserving Statistical Analysis of Genomic Data using Compressive Mechanism with Haar Wavelet Transform".
+For details of our mechanisms, please see our paper entitled "Privacy-Preserving Statistical Analysis of Genomic Data using Compressive Mechanism with Haar Wavelet Transform".
 
 ### Contact
 
