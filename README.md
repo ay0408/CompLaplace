@@ -1,6 +1,6 @@
 # CompLaplace
 
-We have developed privacy-preserving methods that combines the compressive mechanism and the Laplace mechanism.
+We have developed privacy-preserving methods that combine the compressive mechanism and the Laplace mechanism.
 
 This contains the Python codes for our experiments in which we evaluated our mechanisms in terms of accuracy, rank error, and run time.
 
