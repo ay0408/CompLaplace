@@ -4,7 +4,7 @@ We have developed privacy-preserving methods that combine the compressive mechan
 
 This contains the Python codes for our experiments in which we evaluated our mechanisms in terms of accuracy, rank error, and run time.
 
-For details of our mechanisms, please see our paper entitled "Privacy-Preserving Statistical Analysis of Genomic Data using Compressive Mechanism with Haar Wavelet Transform".
+For details of our mechanisms, please see our paper entitled "Privacy-Preserving Statistical Analysis of Genomic Data using Compressive Mechanism".
 
 ### Contact
 
