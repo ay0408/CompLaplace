@@ -6,7 +6,7 @@ This contains the Python codes for our experiments in which we evaluated our mec
 
 ## Note
 
-For details of our mechanisms, please see our paper entitled "Privacy-Preserving Statistical Analysis of Genomic Data using Compressive Mechanism with Haar Wavelet Transform"(https://www.biorxiv.org/content/10.1101/2022.04.10.487816v1).
+For details of our mechanisms, please see our paper entitled "Privacy-Preserving Statistical Analysis of Genomic Data using Compressive Mechanism with Haar Wavelet Transform"(https://doi.org/10.1101/2022.04.10.487816).
 
 ### Contact
 Akito Yamamoto
