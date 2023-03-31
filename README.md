@@ -4,6 +4,14 @@ We have developed privacy-preserving methods that combine the compressive mechan
 
 This contains the Python codes for our experiments in which we evaluated our mechanisms in terms of accuracy, rank error, and run time.
 
+## Major cons of our methods and future directions
+
+・Need more rigorous evaluation of reconstruction errors in the comressive mechanism.
+
+・Close examination of the distribution of random noise.
+
+・Consideration of other information compression techniques and noise distributions.
+
 ## Note
 
 For details of our mechanisms, please see our paper entitled "Privacy-Preserving Statistical Analysis of Genomic Data using Compressive Mechanism with Haar Wavelet Transform" (https://doi.org/10.1089/cmb.2022.0246) published in Journal of Computational Biology.
