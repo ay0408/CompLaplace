@@ -6,9 +6,8 @@ This contains the Python codes for our experiments in which we evaluated our mec
 
 ## Note
 
-For details of our mechanisms, please see our paper entitled "Privacy-Preserving Statistical Analysis of Genomic Data using Compressive Mechanism with Haar Wavelet Transform" presented at Privacy Security Workshop at RECOMB'22.
-
-The paper will be published in Journal of Computational Biology (https://doi.org/10.1089/cmb.2022.0246).
+For details of our mechanisms, please see our paper entitled "Privacy-Preserving Statistical Analysis of Genomic Data using Compressive Mechanism with Haar Wavelet Transform" (https://doi.org/10.1089/cmb.2022.0246) published in Journal of Computational Biology.
+This study was also presented at Privacy Security Workshop at RECOMB'22.
 
 ### Contact
 Akito Yamamoto
