@@ -7,7 +7,7 @@ This contains the Python codes for our experiments in which we evaluated our mec
 ## Major cons of our methods and future directions
 
 ・Need more rigorous evaluation of reconstruction errors in the compressive mechanism.
-(Pure differential privacy might not be completely satisfied.  Need to utilize and introduce relaxed concepts of DP(?))
+(Pure differential privacy might not be completely satisfied.  Need to utilize and introduce relaxed concepts of DP(?) (Should consider how to set the threshold between sig and non-sig groups.))
 
 ・Need close examination of the distribution of random noise (and sensitivity in the compressive mechanism).
 
