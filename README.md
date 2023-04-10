@@ -9,7 +9,7 @@ This contains the Python codes for our experiments in which we evaluated our mec
 ・Need more rigorous evaluation of reconstruction errors in the compressive mechanism.
 (Pure differential privacy might not be completely satisfied.  Need to utilize and introduce relaxed concepts of DP(?) (Should consider how to set the threshold between sig and non-sig groups.))
 
-・Need close examination of the distribution of random noise (and sensitivity in the compressive mechanism).
+・Need close examination of the distribution of random noise (and sensitivity in the compressive mechanism). (More noise than expected seems to be added to elements in sig group.)
 
 ・We should consider other information compression techniques and noise distributions.
 
