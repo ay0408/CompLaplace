@@ -15,6 +15,8 @@ This contains the Python codes for our experiments in which we evaluated our mec
 
 (・We should consider other information compression techniques and noise distributions.)
 
+・(2023/05) Probably, more noise than necessary has been added to the significant data, and coupled with reconstruction error in the Compressed Sensing, about half of those statistics become too large, especially for small $\epsilon$ (The other half become too small). As a result, even if $\epsilon$ is close to $0$, we can achieve high accuracy around $50$%, which should not be allowed for privacy assuarance. Although there is room for research to determine how much privacy error is included in the output, this method should not be used, at least for satisfying $(\epsilon, 0)$-differential privacy. However, varying the noise distribution according to the properties of statistics is thought to be important for improving accuracy, so we will continue to examine the use of other probability distributions, not limited to the Laplace distribution. (Maybe the simplest approach is to use the Gumbel distribution or to employ the concept of ${\it smooth\ sensitivity}$.)
+
 ## Note
 
 For details of our mechanisms, please see our paper entitled "Privacy-Preserving Statistical Analysis of Genomic Data using Compressive Mechanism with Haar Wavelet Transform" (https://doi.org/10.1089/cmb.2022.0246) published in Journal of Computational Biology.
