@@ -19,7 +19,7 @@ This contains the Python codes for our experiments in which we evaluated our mec
 
 (・It would be extremely important to add no more noise than necessary, i.e., to add only the minimal amount of noise as possible, both in terms of accuracy and privacy assurance.)
 
-・While this study was kind of a proof-of-concept, we intend to develop more reliable methods by investigating better information compression techniques and considering varying noise distributions smoothly at the boundary to satisfy exact differential privacy.
+**・While this study was kind of a proof-of-concept, we intend to develop more reliable methods by investigating better information compression techniques and considering varying noise distributions smoothly at the boundary to satisfy exact differential privacy.**
 
 ## Note
 
