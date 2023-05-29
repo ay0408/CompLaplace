@@ -21,6 +21,8 @@ This contains the Python codes for our experiments in which we evaluated our mec
 
 **・While this study was kind of a proof-of-concept, we intend to develop more reliable methods by investigating better information compression techniques and considering varying noise distributions smoothly at the boundary to satisfy exact differential privacy.**
 
+(・Is it possible to develop methods that maintain a certain accuracy regardless of the privacy level (like the results in this study)? (It doesn't matter whether they use differential privacy or not.))
+
 ## Note
 
 For details of our mechanisms, please see our paper entitled "Privacy-Preserving Statistical Analysis of Genomic Data using Compressive Mechanism with Haar Wavelet Transform" (https://doi.org/10.1089/cmb.2022.0246) published in Journal of Computational Biology.
