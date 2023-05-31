@@ -21,7 +21,7 @@ This contains the Python codes for our experiments in which we evaluated our mec
 
 **・While this study was kind of a proof-of-concept, we intend to develop more reliable methods by investigating better information compression techniques and considering varying noise distributions smoothly at the boundary to truly satisfy differential privacy.**
 
-・As for the shortcomings of the proof about that our method is $\epsilon$-differentially private, I cannot say with certainly that it is completely wrong, and I suppose that we may be able to correct them by making some assumptions/conditions appropriately. Including verification of our experimental results and reconsideration of the concept of privacy, we hope that this study will be of some benefit to future research in privacy-protection community.
+・As for the shortcomings of the proof about that our method is $\epsilon$-differentially private, I suppose that we may be able to correct them by making some assumptions/conditions appropriately. Including verification of our experimental results and reconsideration of the concept of privacy, we hope that this study will be of some benefit to future research in privacy-protection community.
 
 (・Is it possible to develop methods that maintain a certain accuracy regardless of the privacy level (like the results in this study)? (It doesn't matter whether they use differential privacy or not.))
 
