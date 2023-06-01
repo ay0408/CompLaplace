@@ -11,7 +11,7 @@ This contains the Python codes for our experiments in which we evaluated our mec
 
 ・Need close examination of the distribution of random noise (and sensitivity in the compressive mechanism). (More noise than expected seems to be added to elements in the sig group.)
 
----> &nbsp; &ensp;  I intend to develop methods that truly satisfy $\epsilon$-differential privacy while varying the noise added to sig and non-sig groups. (Not limited to the compressed sensing technique used in this work. (From the perspective of privacy assuarace, we may not be able to use the information conpressiong techniques with large reconstruction errors.))
+---> &nbsp; &ensp;  I intend to develop methods that truly satisfy $\epsilon$-differential privacy while varying the noise added to sig and non-sig groups. (Not limited to the compressed sensing technique used in this work. (From the perspective of privacy assuarace, we may not be able to use the information compressing techniques with large reconstruction errors.))
 
 (・We should consider other information compression techniques and noise distributions.)
 
