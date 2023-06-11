@@ -7,7 +7,7 @@ This contains the Python codes for our experiments in which we evaluated our mec
 ## Major cons of our methods and future directions
 
 ・Need more rigorous evaluation of reconstruction errors in the compressive mechanism.
-(Pure differential privacy might not be completely satisfied.  Need to utilize and introduce relaxed concepts of DP(?) (Should consider how to set the threshold between sig and non-sig groups.))
+(Pure differential privacy might not be completely satisfied.  Need to utilize and introduce relaxed concepts of DP(?) (Should consider how to set the threshold between significant and non-significant groups.))
 
 ・Need close examination of the distribution of random noise (and sensitivity in the compressive mechanism). (More noise than expected seems to be added to elements in the sig group.)
 
@@ -21,7 +21,7 @@ This contains the Python codes for our experiments in which we evaluated our mec
 
 **・While this study was kind of a proof-of-concept, we intend to develop more reliable methods by investigating better information compression techniques and considering varying noise distributions smoothly at the boundary to truly satisfy differential privacy.**
 
-・As for the shortcomings of the proof about that our method is $\epsilon$-differentially private, I suppose that we might be able to correct them by making some assumptions/conditions appropriately. For example, if the sig and non-sig groups are "sufficiently" far apart (i.e., if we can assume that there is no difference in the sig group between neighboring datasets), our method could be used (because we do not have to consider the case mentioned in the latter part of the proof). However, we should at least carefully verify the experimental results and reconsider the concept of privacy.
+・As for the shortcomings of the proof about that our method is $\epsilon$-differentially private, I suppose that we might be able to correct them by making some assumptions/conditions appropriately. For example, if the sig and non-sig groups are "sufficiently" far apart (i.e., if we can assume that there is no difference in the top group between neighboring datasets), our method could be used (because we do not have to consider the case mentioned in the latter part of the proof). However, we should at least carefully verify the experimental results and reconsider the concept of privacy.
 
 (・Is it possible to develop methods that maintain a certain accuracy regardless of the privacy level (like the results in this study)? (It doesn't matter whether they use differential privacy or not.))
 
