@@ -2,6 +2,8 @@
 
 We have developed privacy-preserving methods that combine the compressive mechanism and the Laplace mechanism.
 
+**Our method can be used if we can assume that the top and the rest (e.g., significant and non-significant SNP groups) rarely vary between neighboring datasets.**
+
 This contains the Python codes for our experiments in which we evaluated our mechanisms in terms of accuracy, rank error, and run time.
 
 ## Major cons of our methods and future directions
