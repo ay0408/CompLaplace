@@ -6,12 +6,18 @@ We have developed privacy-preserving methods that combine the compressive mechan
 
 This contains the Python codes for our experiments in which we evaluated our mechanisms in terms of accuracy, rank error, and run time.
 
+## Comments (Summary of below discussion) (2023/08)
+
+The finding from this study is that, when data can be divided into two groups and we can assume that the partitioning does not vary between the neighboring datasets, the output accuracy may increase by adding different noise to each group. In this study, by adding larger noise to the significant group (while satisfying the same $\epsilon$-differential privacy) using the compressive mechanism, we achieved high accuracy especially when $\epsilon$ was small.
+
+Important future work will include a close examination of the conditions under which assumptions about data partitioning are valid, the establishment of new methods for quantitatively evaluating the quality of $\epsilon$-DP mechanism (not just accuracy/error evaluation), and the development of privacy concepts that go beyond differential privacy.
+
 ## Major cons of our methods and future directions
 
 ・Need more rigorous evaluation of reconstruction errors in the compressive mechanism.
 (Pure differential privacy might not be completely satisfied.  Need to utilize and introduce relaxed concepts of DP(?) (Should consider how to set the threshold between significant and non-significant groups.))
 
-・Need close examination of the distribution of random noise (and sensitivity in the compressive mechanism). (More noise than expected seems to be added to elements in the sig group.)
+・Need a close examination of the distribution of random noise (and sensitivity in the compressive mechanism). (More noise than expected seems to be added to elements in the sig group.)
 
 ---> &nbsp; &ensp;  I intend to develop methods that truly satisfy $\epsilon$-differential privacy while varying the noise added to sig and non-sig groups. (Not limited to the compressed sensing technique used in this work. (From the perspective of privacy assuarace, we may not be able to use the information compressing techniques with large reconstruction errors.))
 
