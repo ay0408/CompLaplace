@@ -14,8 +14,12 @@ Important future work will include a close examination of the conditions under w
 
 ## Major cons of our methods and future directions
 
+・When we can assume that the partitioning does not vary between neighboring datasets (for example, when we can assume that the set of significant SNPs does not change even if a single individual in the analysis varies), our method satisfies $\epsilon$-differential privacy; therefore, we can use it to improve accuracy when the required privacy level is high.
+
+### The below discussion is for the case when we cannot make the assumption on the partitioning.
+
 ・Need more rigorous evaluation of reconstruction errors in the compressive mechanism.
-(Pure differential privacy might not be completely satisfied.  Need to utilize and introduce relaxed concepts of DP(?) (Should consider how to set the threshold between significant and non-significant groups.))
+(Pure differential privacy might not be completely satisfied. Need to utilize and introduce relaxed concepts of DP(?) (Should consider how to set the threshold between significant and non-significant groups.))
 
 ・Need a close examination of the distribution of random noise (and sensitivity in the compressive mechanism). (More noise than expected seems to be added to elements in the sig group.)
 
