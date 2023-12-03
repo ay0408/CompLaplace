@@ -10,7 +10,9 @@ This contains the Python codes for our experiments in which we evaluated our mec
 
 The finding from this study is that, when data can be divided into two groups and we can assume that the partitioning does not vary between the neighboring datasets, the output accuracy may increase by adding different noise to each group. In this study, by adding larger noise to the significant group (while satisfying the same $\epsilon$-differential privacy) using the compressive mechanism, we achieved high accuracy especially when $\epsilon$ was small.
 
-Important future work will include a close examination of the conditions under which assumptions about data partitioning are valid, the establishment of new methods for quantitatively evaluating the quality of $\epsilon$-DP mechanism (not just accuracy/error evaluation), and the development of privacy concepts that go beyond differential privacy.
+In the future, using this study as a starting point, we intend to develop a highly accurate method that satisfies $\epsilon$-differential privacy without assumptions on partitioning by smoothly varying the noise distribution around a threshold.
+
+Further directions include a close examination of the conditions under which assumptions about data partitioning are valid, the establishment of new methods for quantitatively evaluating the quality of $\epsilon$-DP mechanism (not just accuracy/error evaluation), and the development of privacy concepts that go beyond differential privacy.
 
 ## Major cons of our methods and future directions
 
