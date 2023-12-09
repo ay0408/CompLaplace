@@ -37,9 +37,7 @@ Further directions include a close examination of the conditions under which ass
 
 ・As for the shortcomings of the proof about that our method is $\epsilon$-differentially private, I suppose that we might be able to correct them by making some assumptions/conditions appropriately. (For example, if the sig and non-sig groups are "sufficiently" far apart (i.e., if we can assume that there is no difference in the top group between neighboring datasets (as briefly mentioned in page 6 of the paper)), our method can be used (because we do not have to consider the case mentioned in the latter part of the proof).) However, we should at least carefully verify the experimental results and reconsider the concept of privacy.
 
-<--- **(2023/06)** One possible way to correct our method would be that before employing it, we probabilistically sort each element into two groups, the top and the rest, according to the distance from the threshold. Starting with this approach, we plan to develop a more reliable method for privacy-preserving genomic statistical analysis while reflecting on this study.
-
-(・Is it possible to develop methods that maintain a certain accuracy regardless of the privacy level (like the results in this study)? (It doesn't matter whether they use differential privacy or not.))
+(・Is it possible to develop privacy-preserving methods that maintain a certain accuracy regardless of the privacy level (like the results in this study)? (It doesn't matter whether they use differential privacy or not.))
 
 ## Note
 
