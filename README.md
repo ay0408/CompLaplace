@@ -16,7 +16,7 @@ Further directions include a close examination of the conditions under which ass
 
 ## Major cons of our methods and future directions
 
-・When we can assume that the partitioning does not vary between neighboring datasets (for example, when we can assume that the set of significant SNPs does not change even if a single individual in the analysis varies), our method satisfies $\epsilon$-differential privacy; therefore, we can use it to improve accuracy when the required privacy level is high.
+・When we can assume that the partitioning does not vary between neighboring datasets (for example, when we can assume that the set of significant SNPs does not change even if a single individual in the analysis varies), our method can satisfy $\epsilon$-differential privacy; therefore, we can use it to improve accuracy when the required privacy level is high.
 
 ### The below discussion is for the case when we cannot make the assumption on the partitioning.
 
@@ -29,7 +29,7 @@ Further directions include a close examination of the conditions under which ass
 
 (・We should consider other information compression techniques and noise distributions.)
 
-・**(2023/05)** Probably, more noise than necessary has been added to the significant data, and coupled with reconstruction error in the Compressed Sensing (as briefly mentioned in Conclusion), about half of those statistics become too large, especially for small $\epsilon$ and large $K$ (The other half become too small). As a result, even if $\epsilon$ is close to $0$, we can achieve high accuracy around $50$%, which should not be allowed for privacy assuarance. Although there is room for research to determine how much privacy error is included in the output, this method should not be used, at least for satisfying $(\epsilon, 0)$-differential privacy; The shortcomings in our proof are that we rely too much on the value of the upper bound of ${sensitivity}$ in the Compressive Mechanism and that we do not take into account the reconstruction errors. (Actually, the experimental results in this study indicate that we cannot use a simple Compressed Sensing algorithm for the case where the assumption on the partitioning cannot be made, not our method is truly advisable.) However, varying the noise distribution according to the properties of statistics is expected to be important for improving accuracy, so we will continue to examine the use of other probability distributions, not limited to the Laplace distribution. (Maybe the simplest approach is to employ the concept of ${\it smooth\ sensitivity}$.)
+・**(2023/05)** Probably, more noise than necessary has been added to the significant data, and coupled with reconstruction error in the Compressed Sensing (as briefly mentioned in Conclusion), about half of those statistics become too large, especially for small $\epsilon$ and large $K$ (The other half become too small). As a result, even if $\epsilon$ is close to $0$, we can achieve high accuracy around $50$%, which should not be allowed for privacy assuarance. Although there is room for research to determine how much privacy error is included in the output, this method should not be used, at least for satisfying $(\epsilon, 0)$-differential privacy; The shortcomings in our proof are that we rely too much on the value of the upper bound of ${sensitivity}$ in the Compressive Mechanism (p.4, l.7 in the Supplemental Material) and that we do not take into account the reconstruction errors. (Actually, the experimental results in this study indicate that we cannot use a simple Compressed Sensing algorithm for the case where the assumption on the partitioning cannot be made, not our method is truly advisable.) However, varying the noise distribution according to the properties of statistics is expected to be important for improving accuracy, so we will continue to examine the use of other probability distributions, not limited to the Laplace distribution. (Maybe the simplest approach is to employ the concept of ${\it smooth\ sensitivity}$.)
 
 (・It would be extremely important to add no more noise than necessary, i.e., to add only the minimal amount of noise as possible, both in terms of accuracy and privacy assurance.)
 
@@ -41,7 +41,7 @@ Further directions include a close examination of the conditions under which ass
 
 ## Note
 
-For details of our mechanisms, please see our paper entitled "Privacy-Preserving Statistical Analysis of Genomic Data using Compressive Mechanism with Haar Wavelet Transform" (https://doi.org/10.1089/cmb.2022.0246) published in Journal of Computational Biology.
+For details of our mechanisms, please see our paper entitled "Privacy-Preserving Statistical Analysis of Genomic Data using Compressive Mechanism with Haar Wavelet Transform" (https://doi.org/10.1089/cmb.2022.0246) published in Journal of Computational Biology. [Supplemental Material](https://www.liebertpub.com/doi/suppl/10.1089/cmb.2022.0246) provides the proofs of our theorems and other supplemental information.
 This study was also presented at Privacy and Security Workshop at RECOMB'22.
 
 ### Contact
