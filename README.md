@@ -16,7 +16,7 @@ Further directions include a close examination of the conditions under which ass
 
 ## Major cons of our methods and future directions
 
-・When we can assume that the partitioning does not vary between neighboring datasets (for example, when we can assume that the set of significant SNPs does not change even if a single individual in the analysis varies), our method can satisfy $\epsilon$-differential privacy; therefore, we can use it to improve accuracy when the required privacy level is high. (However, a more detailed analysis of reconstruction errors would be required.)
+・When we can assume that the partitioning does not vary between neighboring datasets (for example, when we can assume that the set of significant SNPs does not change even if a single individual in the analysis varies), our method can satisfy $\epsilon$-differential privacy; therefore, we can use it to improve accuracy when the required privacy level is high. (However, a more detailed analysis of reconstruction errors would be required. <--- Don't we need to consider them in analyzing ${\it sensitivity}$?)
 
 ### The below discussion is for the case when we cannot make the assumption on the partitioning.
 
